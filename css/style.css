@@ -140,6 +140,7 @@ nav ul a:hover::after {
 .faca-mais .faca-mais-text {
   width: 50%;
   padding: 0 40px;
+  color: #1c3166;
 }
 
 .faca-mais .faca-mais-text h3 {
@@ -160,9 +161,67 @@ nav ul a:hover::after {
 
 .depoimento h3 {
   text-align: center;
+  color: #1c3166;
 }
 
 .depoimento p {
   margin-bottom: 20px;
   text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.depoimento .card-item {
+  background-color: #d3e6fd;
+  margin: 15px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s;
+}
+
+.depoimento .card-item img {
+  border-radius: 20%; /*logo das empresas*/
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+.depoimento .card-item .name-user {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.depoimento .card-item .depoimento-user {
+  font-size: 15px;
+  padding: 0 15 px;
+  transition: 0.3s;
+}
+
+.depoimento .card-item .star {
+  margin: 15px;
+  border-top: 2px solid #71767a23;
+}
+
+.depoimento .card-item .star i {
+  color: #00a9d4;
+  margin-top: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.depoimento .card-item:hover {
+  background-color: #4f9cf9;
+  margin-top: -5px;
+}
+
+.depoimento .card-item:hover .name-user,
+.depoimento .card-item:hover .depoimento-user,
+.depoimento .card-item:hover .star i {
+  color: white;
 }
