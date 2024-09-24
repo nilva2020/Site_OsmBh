@@ -29,11 +29,7 @@ Neste projeto será aplicado a programação Front-End, utilizando o css flexbox
 
 ### Anotações Gerais:
 
-🚨🚨🚨 Qual a diferença entre CSS e CSS3?
-
-CSS é a versão básica e não suporta design responsivo, enquanto CSS3 é a versão mais recente e suporta design responsivo, possui modules.
-
-Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projeto.
+<a target="_blank" href="https://icons8.com/icon/73FgXcRF4HNx/gear">Engrenagem</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ---
 

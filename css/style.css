@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #f1f6fc31;
+  background-color: #dcdcdc;
 }
 
 section,
@@ -34,8 +34,8 @@ p {
 
 /*Botao*/
 .btn {
-  background-color: #4f9cf9;
-  color: white;
+  background-color: #5f9ea0;
+  color: #dcdcdc;
   padding: 15px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -49,7 +49,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #3580db;
+  background-color: #008080;
 }
 
 @keyframes animate-outline {
@@ -81,7 +81,7 @@ nav ul {
   align-items: center;
 }
 nav ul a {
-  color: white;
+  color: #dcdcdc;
   margin: 0 25px;
   text-transform: uppercase;
   font-size: 14px;
@@ -91,7 +91,7 @@ nav ul a {
 /* efeito nav pag home, excluido efeito no contato*/
 nav ul a:not(.btn)::after {
   content: "";
-  background-color: #3580db;
+  background-color: #5f9ea0;
   height: 3px;
   width: 0%;
   display: block;
@@ -106,6 +106,13 @@ nav ul a:hover::after {
 .logo-home {
   width: 200px;
   height: 200px;
+}
+/*menu mobile*/
+nav .menu-icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  display: none;
 }
 
 .banner {
@@ -149,6 +156,7 @@ nav ul a:hover::after {
 
 .faca-mais .faca-mais-text p {
   margin: 5px 0 10px 0;
+  color: #1c3166;
 }
 
 .faca-mais .faca-mais-img {
@@ -222,6 +230,51 @@ nav ul a:hover::after {
 
 .depoimento .card-item:hover .name-user,
 .depoimento .card-item:hover .depoimento-user,
-.depoimento .card-item:hover .star i {
+.depoimento .card-item:hover .star i,
+.depoimento .card-item:hover .testemunho {
   color: white;
+}
+/*clientes*/
+
+.cliente h3 {
+  text-align: center;
+  color: #1c3166;
+}
+
+.cliente p {
+  text-align: center;
+}
+.cliente .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cliente img {
+  width: 100px;
+  height: 70px;
+}
+
+/*footer*/
+.footer {
+  background-color: #2f4f4f;
+  text-align: center;
+}
+
+.footer i {
+  color: #4f9cf9;
+  font-size: 19px;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.footer .developer p {
+  color: #708090;
+  margin-top: 10px;
+  text-align: center;
+}
+.footer .developer img {
+  width: 50px;
+  height: 50px;
 }
