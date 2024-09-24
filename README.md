@@ -27,9 +27,9 @@ Neste projeto será aplicado a programação Front-End, utilizando o css flexbox
 
 ---
 
-### Anotações Gerais:
+### Créditos:
 
-<a target="_blank" href="https://icons8.com/icon/73FgXcRF4HNx/gear">Engrenagem</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/13118/services">Services</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ---
 
