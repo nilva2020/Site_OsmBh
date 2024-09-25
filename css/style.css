@@ -155,6 +155,8 @@ nav .menu-icon {
 
 .quem-somos .quem-somos-text h3 {
   font-size: 56px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .quem-somos .quem-somos-text p {
@@ -174,6 +176,8 @@ nav .menu-icon {
 .depoimento h3 {
   text-align: center;
   color: #696969;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .depoimento p {
@@ -267,28 +271,29 @@ nav .menu-icon {
 h3 {
   text-align: center; /* Centraliza o h3 */
   color: #696969;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*footer*/
 .footer {
-  background-color: #2f4f4f;
-  text-align: center;
+  background-color: #2f4f4f; /* Cor de fundo do rodapé (ajuste conforme necessário) */
+  padding: 20px 0; /* Espaçamento interno do rodapé */
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
 }
 
-.footer i {
-  color: #708090;
-  font-size: 19px;
-  padding: 10px;
-  margin: 3px;
-  border-radius: 10px;
+.links {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones horizontalmente */
 }
 
-.footer .developer p {
-  color: #708090;
-  margin-top: 10px;
-  text-align: center;
+.links a {
+  margin: 0 10px; /* Espaçamento entre os ícones */
+  font-size: 24px; /* Tamanho dos ícones (ajuste conforme necessário) */
+  color: #5f9ea0; /* Cor dos ícones (ajuste conforme necessário) */
 }
-.footer .developer img {
-  width: 50px;
-  height: 50px;
+
+.developer {
+  text-align: center;
+  margin-top: 10px; /* Espaçamento entre os ícones e o texto */
 }
