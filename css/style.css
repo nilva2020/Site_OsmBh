@@ -140,35 +140,37 @@ nav .menu-icon {
   margin: 10px 0;
 }
 
-/*faça mais*/
-.faca-mais .container {
+/*quem-somos*/
+.quem-somos .container {
   display: flex;
   align-items: center;
 }
 
-.faca-mais .faca-mais-text {
+.quem-somos .quem-somos-text {
   width: 50%;
   padding: 0 40px;
   color: #696969;
+  text-align: justify;
 }
 
-.faca-mais .faca-mais-text h3 {
+.quem-somos .quem-somos-text h3 {
   font-size: 56px;
 }
 
-.faca-mais .faca-mais-text p {
+.quem-somos .quem-somos-text p {
   margin: 5px 0 10px 0;
   color: #708090;
 }
 
-.faca-mais .faca-mais-img {
+.quem-somos .quem-somos-img {
   width: 50%;
 }
 
-.faca-mais .faca-mais-img img {
+.quem-somos .quem-somos-img img {
   width: 100%;
 }
 
+/*depoimento*/
 .depoimento h3 {
   text-align: center;
   color: #696969;
@@ -179,13 +181,14 @@ nav .menu-icon {
   text-align: center;
 }
 
+/*Cards*/
 .cards {
   display: flex;
   justify-content: center;
 }
 
 .depoimento .card-item {
-  background-color: #d3e6fd;
+  background-color: #5f9ea056;
   margin: 15px;
   border-radius: 15px;
   text-align: center;
@@ -211,11 +214,12 @@ nav .menu-icon {
   font-size: 15px;
   padding: 0 15 px;
   transition: 0.3s;
+  text-align: justify;
 }
 
 .depoimento .card-item {
   margin: 15px;
-  border-top: 2px solid #064e0c23;
+  border-top: 2px solid #39573c23;
 }
 
 .depoimento .card-item i {
@@ -238,25 +242,32 @@ nav .menu-icon {
 }
 /*clientes*/
 
-.cliente h3 {
-  text-align: center;
+.cliente {
+  /* Espaçamento vertical */
+  margin-bottom: 40px;
+}
+
+.container {
+  text-align: justify; /* Texto justificado */
+  margin-bottom: 20px; /* Espaço após o texto */
+}
+
+.logo-container {
+  display: flex; /* Alinha as logos horizontalmente */
+  justify-content: space-between; /* Distribui as logos igualmente */
+  flex-wrap: wrap; /* Quebra para a próxima linha quando não couberem 5 logos */
+}
+
+.logo {
+  width: 50px; /* Largura das logos */
+  height: 50px; /* Altura das logos */
+  margin-bottom: 20px; /* Espaço entre as logos */
+}
+
+h3 {
+  text-align: center; /* Centraliza o h3 */
   color: #696969;
 }
-
-.cliente p {
-  text-align: center;
-}
-.cliente .container div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.cliente img {
-  width: 100px;
-  height: 70px;
-}
-
 /*footer*/
 .footer {
   background-color: #2f4f4f;
