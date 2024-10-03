@@ -31,6 +31,8 @@ Neste projeto será aplicado a programação Front-End, utilizando o css flexbox
 
 <a target="_blank" href="https://icons8.com/icon/13118/services">Services</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
 
+https://bennettfeely.com/clippy/
+
 ---
 
 ## Autora:
