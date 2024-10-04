@@ -318,6 +318,34 @@ nav.close-icon {
   margin-top: 10px; /* Espaçamento entre os ícones e o texto */
 }
 
+/* Sobre*/
+
+.sobre .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sobre .sobre-text {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.sobre .sobre-text p {
+  margin: 18px 0;
+  color: #2f4f4f;
+}
+
+.sobre-img .sobre-img2 {
+  width: 100%;
+}
+
+.sobre-img .sobre-img2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* End Sobre */
+
 @media (max-width: 830px) {
   /*menu mobile*/
   .ul {
@@ -336,6 +364,7 @@ nav.close-icon {
   .ul.open {
     clip-path: circle(141.4% at 100% 0);
   }
+
   .ul a {
     margin: 10px 0; /*espaçamento entre os elementos */
     font-size: 16px;
