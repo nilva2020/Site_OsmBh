@@ -49,4 +49,4 @@ https://bennettfeely.com/clippy/
 ---
 
 <center><img src="img/50 transparente.png" width="70px" height="70px"></center>
-<center>Developing since | 2023</center>
+<center>Developing since | 2020</center>

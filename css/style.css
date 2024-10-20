@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
+/*geral*/
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +18,14 @@ section,
 footer {
   padding: 54px 0;
 }
-
 h3 {
   font-size: 50px;
 }
-
 p {
   color: #708090;
 }
 
+/*Container*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -37,7 +37,9 @@ p {
   height: 200px;
 }
 
-/*Botao home*/
+/*Page Home*/
+
+/*Botao*/
 .btn {
   background-color: #5f9ea0;
   color: #dcdcdc;
@@ -48,7 +50,7 @@ p {
   transition: 0.1s;
 }
 
-/*inicio da animação no botao contato pag home*/
+/*animação */
 .btn.animate-btn {
   animation: animate-outline 1s ease-out infinite;
 }
@@ -65,8 +67,9 @@ p {
     outline: 15px solid #5aef9d00;
   }
 }
+/*end animação*/
 
-/*fim */
+/*fim botao*/
 
 header {
   background-position: center;
@@ -74,10 +77,11 @@ header {
   background-attachment: fixed;
 }
 
+/*nav*/
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /*espaço entre os elementos*/
   padding-top: 30px;
 }
 
@@ -85,6 +89,7 @@ nav ul {
   display: flex;
   align-items: center;
 }
+
 nav ul a {
   color: #dcdcdc;
   margin: 0 25px;
@@ -93,7 +98,7 @@ nav ul a {
   display: block;
 }
 
-/* efeito nav pag home, excluido efeito no contato*/
+/* efeito nav pag home, excluido efeito no contato a:not(.btn)*/
 nav ul a:not(.btn)::after {
   content: "";
   background-color: #5f9ea0;
@@ -139,15 +144,13 @@ nav.close-icon {
 .banner .banner-text h1 {
   font-size: 96px;
   color: #ffffffb7;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .banner .banner-text p {
   font-size: 20px;
   color: #ffffffb7;
   font-weight: lighter;
-  margin: 10px 0;
+  margin: 18px 0;
 }
 
 /*quem-somos*/
@@ -165,8 +168,7 @@ nav.close-icon {
 
 .quem-somos .quem-somos-text h3 {
   font-size: 56px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #2f4f4f;
 }
 
 .quem-somos .quem-somos-text p {
@@ -178,30 +180,24 @@ nav.close-icon {
   width: 50%;
 }
 
+/*elemento pai*/
 .quem-somos .quem-somos-img img {
   width: 100%;
 }
-
 /*depoimento*/
-.depoimento .container h3 {
-  margin-bottom: 15px;
+.depoimento h3 {
   text-align: center;
-  color: #696969;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #2f4f4f;
 }
-
 .depoimento p {
   margin-bottom: 20px;
   text-align: center;
 }
-
 /*Cards*/
 .cards {
   display: flex;
   justify-content: center;
 }
-
 .depoimento .card-item {
   background-color: #5f9ea056;
   margin: 15px;
@@ -211,32 +207,29 @@ nav.close-icon {
   transition: 0.3s;
   padding-top: 20px;
 }
-
 .depoimento .card-item .name-user {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 15px;
   transition: 0.3s;
 }
-
-/* Estilos para o depoimento do usuário */
 .depoimento .card-item .depoimento-user {
   font-size: 15px;
-  padding: 0 15px; /* Corrigindo espaço entre "15" e "px" */
+  padding: 0 15px;
   transition: 0.3s;
-  text-align: justify; /* Centraliza o texto horizontalmente */
+  text-align: justify;
   margin: 20px 0; /* Espaçamento superior e inferior de 20px */
   line-height: 1.5; /* Espaçamento entre linhas de 1,00 (100%) */
 }
 
-.depoimento .card-item {
-  margin: 15px;
-  border-top: 2px solid #39573c23;
+.depoimento .card-item .testemunho {
+  margin: 15px 0;
+  border-top: 2px solid #71767a23;
 }
 
-.depoimento .card-item i {
-  color: #5f9ea0;
+.depoimento .card-item .testemunho p {
   margin-top: 15px;
+  font-weight: 600;
   font-size: 20px;
   transition: 0.3s;
 }
@@ -246,23 +239,16 @@ nav.close-icon {
   margin-top: -5px;
 }
 
-.testemunho div {
-  margin: 15px 0;
-}
-
 .depoimento .card-item:hover .name-user,
 .depoimento .card-item:hover .depoimento-user,
-.depoimento .card-item:hover .star i,
-.depoimento .card-item:hover .testemunho {
+.depoimento .card-item:hover .testemunho p {
   color: white;
 }
 
 /*clientes*/
-
-.cliente .container h3 {
+.clientes h3 {
   text-align: center;
-  margin: 15px 0;
-  color: #696969;
+  color: #2f4f4f;
 }
 
 .cliente {
@@ -293,31 +279,27 @@ nav.close-icon {
   text-align: center;
   padding: 20px;
 }
-
 .footer .container p {
   text-align: center;
   margin-bottom: 10px;
 }
-
 .text {
   text-align: center;
 }
-
 .links {
   display: flex;
   justify-content: center; /* Centraliza os ícones horizontalmente */
 }
-
 .links a {
   margin: 0 10px; /* Espaçamento entre os ícones */
   font-size: 24px; /* Tamanho dos ícones (ajuste conforme necessário) */
   color: #5f9ea0; /* Cor dos ícones (ajuste conforme necessário) */
 }
-
 .developer {
   text-align: right;
   margin-top: 10px; /* Espaçamento entre os ícones e o texto */
 }
+/* end page home*/
 
 /* inicio Page Sobre*/
 
@@ -388,7 +370,7 @@ nav .ul-sobre .sobre-a {
 
 /* end nav*/
 
-/*banner sobre*/
+/*banner*/
 .banner-sobre {
   display: flex;
   justify-content: center;
@@ -401,10 +383,9 @@ nav .ul-sobre .sobre-a {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* end sobre*/
-
 /* End Sobre */
 
+/* Mobile */
 @media (max-width: 830px) {
   /*menu mobile*/
   .ul {
@@ -424,7 +405,6 @@ nav .ul-sobre .sobre-a {
   .ul.open {
     clip-path: circle(141.4% at 100% 0);
   }
-
   .ul a {
     margin: 10px 0; /*espaçamento entre os elementos */
     font-size: 16px;
@@ -437,5 +417,7 @@ nav .ul-sobre .sobre-a {
     position: absolute;
     top: 46px;
     right: 28px;
+    color: white;
   }
 }
+/* End Mobile */
